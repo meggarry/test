@@ -18,3 +18,10 @@ print(num[-2])
 print(num[::1])
 print(num[::-1]) #reverse order
 print(num[3::5])
+
+lengthoflist= len(num)
+print(len(num))
+print(lengthoflist)
+del(num[3])
+print(num)
+
